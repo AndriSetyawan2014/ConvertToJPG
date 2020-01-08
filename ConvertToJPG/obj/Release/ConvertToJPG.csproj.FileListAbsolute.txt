@@ -1,0 +1,9 @@
+D:\Project\ConvertToJPG\ConvertToJPG\bin\Release\ConvertToJPG.exe.config
+D:\Project\ConvertToJPG\ConvertToJPG\obj\Release\ConvertToJPG.Form1.resources
+D:\Project\ConvertToJPG\ConvertToJPG\obj\Release\ConvertToJPG.Properties.Resources.resources
+D:\Project\ConvertToJPG\ConvertToJPG\obj\Release\ConvertToJPG.csproj.GenerateResource.Cache
+D:\Project\ConvertToJPG\ConvertToJPG\obj\Release\ConvertToJPG.exe
+D:\Project\ConvertToJPG\ConvertToJPG\obj\Release\ConvertToJPG.pdb
+D:\Project\ConvertToJPG\ConvertToJPG\obj\Release\ConvertToJPG.csprojResolveAssemblyReference.cache
+D:\Project\ConvertToJPG\ConvertToJPG\bin\Release\ConvertToJPG.exe
+D:\Project\ConvertToJPG\ConvertToJPG\bin\Release\ConvertToJPG.pdb
