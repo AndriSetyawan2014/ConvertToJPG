@@ -34,16 +34,18 @@
             this.checkBoxPNG = new System.Windows.Forms.CheckBox();
             this.buttonConvertToJPG = new System.Windows.Forms.Button();
             this.labelWarning = new System.Windows.Forms.Label();
+            this.checkBoxJPEG = new System.Windows.Forms.CheckBox();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.checkBoxJPEG);
             this.groupBox1.Controls.Add(this.checkBoxBMP);
             this.groupBox1.Controls.Add(this.checkBoxPNG);
             this.groupBox1.Location = new System.Drawing.Point(45, 29);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(294, 79);
+            this.groupBox1.Size = new System.Drawing.Size(294, 96);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Image Type";
@@ -92,6 +94,17 @@
             this.labelWarning.Text = "label WARNING";
             this.labelWarning.Visible = false;
             // 
+            // checkBoxJPEG
+            // 
+            this.checkBoxJPEG.AutoSize = true;
+            this.checkBoxJPEG.Location = new System.Drawing.Point(6, 71);
+            this.checkBoxJPEG.Name = "checkBoxJPEG";
+            this.checkBoxJPEG.Size = new System.Drawing.Size(56, 17);
+            this.checkBoxJPEG.TabIndex = 2;
+            this.checkBoxJPEG.Text = ".JPEG";
+            this.checkBoxJPEG.UseVisualStyleBackColor = true;
+            this.checkBoxJPEG.CheckedChanged += new System.EventHandler(this.checkBoxJPEG_CheckedChanged);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -121,6 +134,7 @@
         private System.Windows.Forms.CheckBox checkBoxPNG;
         private System.Windows.Forms.Button buttonConvertToJPG;
         private System.Windows.Forms.Label labelWarning;
+        private System.Windows.Forms.CheckBox checkBoxJPEG;
     }
 }
 

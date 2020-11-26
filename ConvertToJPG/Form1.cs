@@ -16,6 +16,7 @@ namespace ConvertToJPG
     {
         bool convertFromPNG = false;
         bool convertFromBMP = false;
+        bool convertFromJPEG = false;
         int countFile = 0;
 
         public Form1()
@@ -27,9 +28,10 @@ namespace ConvertToJPG
         {
             convertFromPNG = checkBoxPNG.Checked;
             convertFromBMP = checkBoxBMP.Checked;
+            convertFromJPEG = checkBoxJPEG.Checked;
             countFile = 0;
 
-            if (!convertFromPNG && !convertFromBMP)
+            if ((!convertFromPNG && !convertFromBMP) && !convertFromJPEG)
             {
                 setTextWarning("Please select image type ...");                
             }
@@ -45,7 +47,8 @@ namespace ConvertToJPG
             foreach (string file in System.IO.Directory.GetFiles(folder))
             {
                 if(convertFromPNG) convertImageType(file, ".png", ".jpg");
-                if(convertFromBMP) convertImageType(file, ".bmp", ".jpg");                
+                if(convertFromBMP) convertImageType(file, ".bmp", ".jpg");
+                if(convertFromJPEG) convertImageType(file, ".jpeg", ".jpg");
             }
             setTextWarning("Convert "+ countFile +" files Complete...");
         }
@@ -76,6 +79,11 @@ namespace ConvertToJPG
         }
 
         private void checkBoxBMP_CheckedChanged(object sender, EventArgs e)
+        {
+            labelWarning.Visible = false;
+        }
+
+        private void checkBoxJPEG_CheckedChanged(object sender, EventArgs e)
         {
             labelWarning.Visible = false;
         }
