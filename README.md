@@ -12,5 +12,5 @@ How to use the application :
 - Select the image type wich will be convert
 - Click "Convert to JPG"
 
-# Release File :<br>
-<a href="https://github.com/AndriSetyawan2014/ConvertToJPG/blob/master/ConvertToJPG/bin/Release/ConvertToJPG.exe">ConvertToJPG.exe</a>
+# Release :<br>
+<a href="https://github.com/AndriSetyawan2014/ConvertToJPG/raw/master/ConvertToJPG/bin/Release/ConvertToJPG.exe">ConvertToJPG.exe</a>
